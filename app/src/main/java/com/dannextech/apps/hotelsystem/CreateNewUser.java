@@ -49,7 +49,7 @@ public class CreateNewUser extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
 
-    private static final String TAG = "Firebase Authentication Status";
+    private static final String TAG = "Authentication Status";
 
     private ImageButton btProfilePic;
     private EditText etFullNames,etIdNumber,etYOB,etGender,etPhone,etPosition;
@@ -337,6 +337,7 @@ public class CreateNewUser extends AppCompatActivity {
     public void setImagePath(String imagePath) {
         this.imagePath = imagePath;
     }
+
     public String getImagePath(){
         return imagePath;
     }
